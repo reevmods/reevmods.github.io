@@ -2,11 +2,11 @@
     "steev":{
         "name": "Steev",
         "pb": "https://cdn.slpnetwork.de/img/sys/users/Thesteev.png",
-        "bio": "Hi, I'm Steev! I was born on 22.09.1999 and live in Germany. I have been working as a hobbyist programmmer for 6 years. I am Web Developer, Engineer, Designer and Frontend Developer for Notepage. I have programmed notepage and am responsible for the website."
+        "bio": "Hi, I'm Steev! I was born on 22.09.1999 and live in Germany. I have been working as a hobbyist programmmer since 2013. I am Web Developer, Engineer, Designer and Frontend Developer for various Projects. I am Programming Mods for Reevmods and am Responsible for this Website"
     },
-    "bob":{
-        "name": "Steev",
-        "pb": "https://cdn.discordapp.com/avatars/315175099135295499/1585f21102c684f11ad271ed10138dd6.png?size=128",
-        "bio": "Hi, I'm Steev! I was born on 22.09.1999 and live in Germany. I have been working as a hobbyist programmmer for 6 years. I am Web Developer, Engineer, Designer and Frontend Developer for Notepage. I have programmed notepage and am responsible for the website."
+    "robin":{
+        "name": "Robin1502",
+        "pb": "assets/images/profil/Fielmann.png",
+        "bio": "Salut, I'm Robin! I'm new in the programming world but everything has a start. At the moment is Java my main language, especially Minecraft modding concerns me."
     }
 }
