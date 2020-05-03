@@ -1,0 +1,8 @@
+{
+    "win":{
+        "platform": "Windows",
+        "version":"1.0.32",
+        "img": "assets/images/win.svg",
+        "desc": "The Windows Client of Notepage"
+    }
+}

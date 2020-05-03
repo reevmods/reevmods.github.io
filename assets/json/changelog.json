@@ -1,0 +1,22 @@
+{
+"web":[
+    {
+        "version":"1.0.0",
+        "body":"<p>This is the Release Version</p><br><ul><li><p>no updates made</p></li></ul>"
+    }
+],
+"desktop":[
+    {
+        "version":"1.0.32",
+        "body":"<p>In this Version, Settings finaly got added! Beside that we startet working on multi platform and made a few UI Changes</p><ul><li>Added Settings</li><li>Small changes on Splashscreen</li><li>Changed Storage Handling to support multi Platform <b style=\"color:red;\">(WIP)</b></li></ul>"
+    },
+    {
+        "version":"1.0.33",
+        "body":"<p>This Update was more for fixing unfound bugs then for adding new Features..<br>the Bugfixes are laying foundation for new features</p><ul><li>Fixed Settings Issue (it now generates the Config)</li><li>Fixed Settings beein cleared</li><li>Added Version to Settings Screen</li><li>Fixed Update Button</li><li>Fixed Status buttons (minimize,maximize,close)</li><li><b style=\"color:#e74c3c\">Due to these Bugs The Path Setting was disabled until the next patch</b></li></ul>"
+    },
+    {
+        "version":"1.0.34",
+        "body":"<p>This Update Fixed tons of Setting Issues and we're proud to introduce the new UI. The new UI Improves Usabillity and looks just way better.</p><li>Fixed Settings Issue (it now generates the Config)</li><li>Fixed Settings beeing cleared</li><li>Added Version to Settings Screen</li><li>Fixed Update Button</li> <li>Fixed Status Buttons (minimize,maximize,close)</li><li>Removed Eye hurting and not visible colours</li><li>Added Dropdown for Tools</li><li>Notepage wil not create empty Documents anymore</li><li>Window Reloads when files are getting added or removed</li><li>Changed Default spawn sizes from 1000*700 to 1280*720 Pixel</li><li><b style=\"color:#e74c3c\">Due to major bugs The Path Setting is disabled</b></li>"
+    }
+]
+}

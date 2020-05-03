@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title id="title">Team</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/assets/styles/global_style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <main role="main">
+            <div class="header">
+                <div class="container">
+                    <h1 id="name" style="text-align:center;">Name</h1>
+                    <a style="width: auto; padding: 10px 10px 10px 10px; color:rgb(165, 165, 165); font-decoration: none; background-color: rgb(117, 255, 163); border-radius: 5px;" href="/">Back to Homepage</a>
+                </div>
+            </div>
+
+            <div class="container"><br>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" style="text-align: center;">
+                    <img id="avatar" src="" alt="Avatar" style="border-radius:50%;">
+                </div>
+                <div class="col-md-4"></div>
+            </div><br>
+            </div>
+            <div class="small-container row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" style="text-align:center">
+                    <p id="bio" >BIO HERE</p>
+                </div>
+                <div class="col-md-4"></div> 
+            </div>
+        </main>
+        <footer class="unflexed">
+            <div class="container">
+                <h5 class="footer-copyright"><i class="far fa-copyright"> 2019 Notepage - <a style="color:white;" href="impressum.html">Impressum / Privacy</a> - <a style="color:white;" href="changelog.html">Changelog</a></i></h5>
+            </div>
+        </footer>
+        <script src="utils/url.handler.min.js"></script>
+        <script src="utils/json.fetcher.min.js"></script>
+        <script>
+
+            // Get User from the URL
+            var query = window.location.search.substring(1);
+            var qs = parse_query_string(query);
+
+            // Get JSON Content and asign to Website
+            jsonImport('https://notepage.github.io/assets/json/team.json').then(function(res){
+                document.getElementById('bio').innerHTML = res[qs['u']].bio;
+                document.getElementById('name').innerHTML = res[qs['u']].name;
+                document.getElementById('title').innerHTML = 'Team | ' + res[qs['u']].name;
+                document.getElementById('avatar').src = res[qs['u']].pb;
+            });
+
+        </script>
+    </body>
+</html>

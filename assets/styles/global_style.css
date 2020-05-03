@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.header{
+    padding-top: 50px;
+    background-color: #26de81;
+    text-align: center;
+    color: white;
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+}
+.err_header{
+    padding-top: 50px;
+    background-color: #fc5c65;
+    text-align: center;
+    color: white;
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+}
+.Showcase{
+    background-color: #4b6584;
+    text-align: center;
+    color: white;
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+} 
+footer{
+    display: flex;
+    min-height: 100px;
+    background-color: #778ca3;
+    margin-bottom: 0px;
+    bottom: 0px;
+    color:white;
+}
+.unflexed{
+    position:absolute;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+}
+.footer-copyright{
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.small-container{
+    display: flex;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
+.team-showcase{
+    background-color: #4b6584;
+}
