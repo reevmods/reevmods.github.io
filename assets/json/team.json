@@ -6,7 +6,7 @@
     },
     "robin":{
         "name": "Robin1502",
-        "pb": "assets/images/profil/Fielmann.png",
+        "pb": "https://reevmods.github.io/assets/images/profil/Fielmann.png",
         "bio": "Salut, I'm Robin! I'm new in the programming world but everything has a start. At the moment is Java my main language, especially Minecraft modding concerns me."
     }
 }
