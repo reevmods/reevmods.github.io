@@ -39,7 +39,7 @@
         </main>
         <footer class="unflexed">
             <div class="container">
-                <h5 class="footer-copyright"><i class="far fa-copyright"> 2020 ReefMods - <a style="color:white;" href="impressum.html">Impressum / Privacy</a> - <a style="color:white;" href="changelog.html">Changelog</a></i></h5>
+                <h5 class="footer-copyright"><i class="far fa-copyright"> 2020 ReevMods - <a style="color:white;" href="impressum.html">Impressum / Privacy</a> - <a style="color:white;" href="changelog.html">Changelog</a></i></h5>
             </div>
         </footer>
         <script src="utils/url.handler.min.js"></script>
@@ -51,7 +51,7 @@
             var qs = parse_query_string(query);
 
             // Get JSON Content and asign to Website
-            jsonImport('https://notepage.github.io/assets/json/team.json').then(function(res){
+            jsonImport('https://reevmods.github.io/assets/json/team.json').then(function(res){
                 document.getElementById('bio').innerHTML = res[qs['u']].bio;
                 document.getElementById('name').innerHTML = res[qs['u']].name;
                 document.getElementById('title').innerHTML = 'Team | ' + res[qs['u']].name;
